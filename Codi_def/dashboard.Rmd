@@ -1,0 +1,206 @@
+---
+title: "Predicció Resultat"
+output: 
+  flexdashboard::flex_dashboard:
+    vertical_layout: scroll
+    orientation: rows
+---
+
+
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(ggplot2)
+library(kableExtra)
+library(DT)
+library(knitr)
+source("C:/Users/artur/OneDrive/Escriptori/4t GEA/TFG/glm2poisDI.R")
+source("C:/Users/artur/OneDrive/Escriptori/4t GEA/TFG/pred_result.R")
+
+#Document csv amb les prediccions dels partits
+preds <- read.csv("C:/Users/artur/OneDrive/Escriptori/4t GEA/TFG/prediccions.csv")
+#Fem dashboard pel partit 4, Leicester vs Newcastle
+n_partit <- 4
+lambda1 <- preds$lambda1[n_partit]
+lambda2 <- preds$lambda2[n_partit]
+p <- preds$p[n_partit]
+theta <- preds$theta[n_partit]
+eq_local <- as.character(preds$Local[n_partit])
+eq_visitant <- as.character(preds$Visitant[n_partit])
+
+#Data frame Taula gols + punts
+pred_gols <- pred_result_bpoisDI(lambda1 = lambda1, lambda2 = lambda2, p = p, theta = theta,
+                                 type = "expected")
+pred_resultat <- pred_result_bpoisDI(lambda1 = lambda1, lambda2 = lambda2, p = p, theta = theta,
+                                 type = "prob")
+taula <- data.frame(Equips = c(eq_local, eq_visitant), xG = t(round(pred_gols, 2)), xPts = round(c(pred_resultat[1] * 3 + pred_resultat[2] * 1,
+                                                                                pred_resultat[3] * 3 + pred_resultat[2] * 1), 2))
+row.names(taula) <- c("Local", "Visitant")
+
+#Colors segons punts esperats
+colfunc <- colorRampPalette(c("grey", "darkgreen"))
+colors <- colfunc(301)[ceiling(taula$xPts * 100) + 1]
+
+#Gràfic probabilitats resultat
+resultat <- data.frame(Resultat = factor(c("1", "X", "2"), levels = c("2", "X", "1")), 
+                       probabilitat = t(pred_resultat))
+
+#Gràfic prbabilitats els dos equips marquen
+prob_AEM <- 1 - ((1 - p) * (dpois(x = 0, lambda = lambda1) + 
+                dpois(x = 0, lambda = lambda2) - dpois(x = 0, lambda = lambda1) * dpois(x = 0, lambda = lambda2)) +
+                p * dpois(x = 0, lambda = theta))
+AEM <- data.frame(Valor = c("Si", "No"), probabilitat = c(prob_AEM, 1 - prob_AEM))
+
+#Gràfic gols eq. local
+max_gols <- 4
+gol_prob1 <- sapply(0:max_gols, FUN = function(i){
+  dpois(x = i, lambda = (lambda1)) * (1 - p) + p * dpois(x = i, lambda = theta)
+})
+probs_gols1 <- data.frame(Gols = rep(0:max_gols, 2), Probabilitat = c(gol_prob1, c(0, cumsum(gol_prob1)[-length(gol_prob1)])), 
+                          Valor = c(rep("Probabilitat valor", max_gols + 1), rep("Probabilitat acumulada", max_gols +1)))
+
+#Gràfic gols eq. visitant
+gol_prob2 <- sapply(0:max_gols, FUN = function(i){
+  dpois(x = i, lambda = (lambda2)) * (1 - p) + p * dpois(x = i, lambda = theta)
+})
+probs_gols2 <- data.frame(Gols = rep(0:max_gols, 2), Probabilitat = c(gol_prob2, c(0, cumsum(gol_prob2)[-length(gol_prob2)])), 
+                          Valor = c(rep("Probabilitat valor", max_gols + 1), rep("Probabilitat acumulada", max_gols + 1)))
+
+#Gràfic gols totals
+max_gols2 <- 7
+gols_total <- expand.grid(0:10, 0:10)
+gols_total$prob <- dpois2DI(x = gols_total$Var1, y = gols_total$Var2, lambda1 = lambda1, lambda2 = lambda2,
+                             p = p, theta = theta)
+gol_prob3 <- sapply(0:max_gols2, FUN = function(x){
+  sum(gols_total$prob[gols_total$Var1 + gols_total$Var2 == x])
+})
+probs_gols3 <- data.frame(Gols = rep(0:max_gols2, 2), Probabilitat = c(gol_prob3, c(0, cumsum(gol_prob3)[-length(gol_prob3)])), 
+                          Valor = c(rep("Probabilitat valor", max_gols2 + 1), rep("Probabilitat acumulada", max_gols2 + 1)))
+
+#Taula resultat exacte
+max_gols3 <- 7
+taula2 <- matrix(gols_total$prob, nrow = 11, byrow = F)
+colnames(taula2) <- as.character(0:10)
+rownames(taula2) <- as.character(0:10)
+taula2 <- round(taula2[1:(max_gols3 + 1), 1:(max_gols3 + 1)] * 100, 2)
+taula3 <- as.data.frame(taula2)
+taula3 <- as.data.frame(sapply(1:ncol(taula3), FUN = function(x){
+  taula3[, x] <- paste0(as.character(taula3[, x]), "%")
+}))
+colnames(taula3) <- as.character(0:max_gols3)
+rownames(taula3) <- as.character(0:max_gols3)
+
+#Colors segons probabilitat
+colfunc <- colorRampPalette(c("darkred", "green"))
+colors2 <- matrix(colfunc(ceiling(max(taula2) + 1))[ceiling(taula2) + 1], ncol = ncol(taula2))
+```
+Row {data-height=150}
+-----------------------------------------------------------------------
+```{r, fig.height = 2, fig.width = 6, fig.align = "center"}
+kable(taula, vline = "", format = 'html', 
+      align = 'lccc', col.names = c("Equips", "Gols esperats", "Punts esperats")) %>%
+  kable_styling(latex_options = c("strpied"), position = 'center', 
+              font_size = 10) %>%
+  row_spec(0, bold = T, italic = F, angle = 0, font_size = 18) %>%
+  row_spec(1, bold = F, color = "white", background = colors[1], font_size = 15)  %>%
+  row_spec(2, bold = F, color = "white", background = colors[2], font_size = 15) %>%
+  collapse_rows(1, latex_hline = "none")
+
+
+```
+
+Row {data-height=250}
+-----------------------------------------------------------------------
+
+### Resultat
+
+```{r, fig.height = 2, fig.width = 6, fig.align = "center"}
+ggplot(resultat, mapping = aes(x = 1, y = probabilitat, fill = Resultat)) +
+  geom_col(width = 0.5) + 
+  scale_fill_manual(values = c("slategray1", "thistle1", "wheat1")) + 
+  coord_flip() +
+  theme_void() + xlim(c(0.5, 1.5)) + ylim(c(- 0.1, 1.1)) + theme(legend.position="none") +
+  geom_text(x = 1.3, y = 0.98, label = "2", size = 3) +
+  geom_text(x = 1.3, y = 0.02, label = "1", size = 3) +
+  geom_text(x = 1.3, y = resultat$probabilitat[1] + resultat$probabilitat[2] / 2, label = "X", size = 3) +
+  geom_text(x = 1, y = 0.96, label = paste0(as.character(round(resultat$probabilitat[3] * 100, 2)), "%"), color = "black", size = 2.5) +
+  geom_text(x = 1, y = resultat$probabilitat[1] + resultat$probabilitat[2] / 2, 
+            label = paste0(as.character(round(resultat$probabilitat[2] * 100, 2)), "%"), color = "black", size = 2.5) +
+  geom_text(x = 1, y = 0.04, 
+            label = paste0(as.character(round(resultat$probabilitat[1] * 100, 2)), "%"), color = "black", size = 2.5)
+```
+
+### Marquen els dos equips
+
+```{r, fig.height = 2, fig.width = 6, fig.align = "center"}
+ggplot(AEM, mapping = aes(x = 1, y = probabilitat, fill = Valor)) +
+  geom_col(width = 0.5) + 
+  scale_fill_manual(values = c("slategray1", "wheat1")) + 
+  coord_flip() +
+  theme_void() + xlim(c(0.5, 1.5)) + ylim(c(-0.1, 1.1))+ theme(legend.position="none") +
+  geom_text(x = 1.3, y = 0.97, label = "No") +
+  geom_text(x = 1.3, y = 0.03, label = "Si") +
+  geom_text(x = 1, y = 0.95, label = paste0(as.character(round(AEM$probabilitat[2] * 100, 2)), "%"), color = "black", size = 3)+
+  geom_text(x = 1, y = 0.05, 
+            label = paste0(as.character(round(AEM$probabilitat[1] * 100, 2)), "%"), color = "black", size = 3)
+```
+
+Row {data-height=350}
+-----------------------------------------------------------------------
+
+### Gols equip local
+
+```{r, fig.height = 3, fig.width = 6, fig.align = "center"}
+library(ggthemes)
+ggplot(probs_gols1, mapping = aes(x = Gols, y = Probabilitat, fill = Valor)) +
+  geom_col(width = 0.5) + ylim(c(0, 1.01)) +
+  scale_fill_manual(values = c("slategray1", "wheat1")) +
+  geom_text(x = rep(0:max_gols, 2), y = c(gol_prob1, gol_prob1 + c(0, cumsum(gol_prob1)[-length(gol_prob1)])) + 0.03, 
+            label =    paste0(as.character(round(c(gol_prob1, gol_prob1 + c(0, cumsum(gol_prob1)[-length(gol_prob1)])) * 100, 2)), "%"), color = "black", size = 2.5) + theme_hc() + theme(legend.position="right")
+
+```
+
+### Gols equip visitant
+
+```{r, fig.height = 3, fig.width = 6, fig.align = "center"}
+ggplot(probs_gols2, mapping = aes(x = Gols, y = Probabilitat, fill = Valor)) +
+  geom_col(width = 0.5) + ylim(c(0, 1.01)) +
+  scale_fill_manual(values = c("slategray1", "wheat1")) +
+  geom_text(x = rep(0:max_gols, 2), y = c(gol_prob2, gol_prob2 + c(0, cumsum(gol_prob2)[-length(gol_prob2)])) + 0.03, 
+            label =    paste0(as.character(round(c(gol_prob2, gol_prob2 + c(0, cumsum(gol_prob2)[-length(gol_prob2)])) * 100, 2)), "%"), color = "black", size = 2.5) + theme_hc() + theme(legend.position="right")
+```
+
+Row {data-height=450}
+-----------------------------------------------------------------------
+
+### Gols total
+
+```{r, fig.height = 3, fig.width = 6, fig.align = "center"}
+ggplot(probs_gols3, mapping = aes(x = Gols, y = Probabilitat, fill = Valor)) +
+  geom_col(width = 0.5) + ylim(c(0, 1.01)) +
+  scale_fill_manual(values = c("slategray1", "wheat1")) +
+  geom_text(x = rep(0:max_gols2, 2), y = c(gol_prob3, gol_prob3 + c(0, cumsum(gol_prob3)[-length(gol_prob3)])) + 0.03, 
+            label =    paste0(as.character(round(c(gol_prob3, gol_prob3 + c(0, cumsum(gol_prob3)[-length(gol_prob3)])) * 100, 2)), "%"), color = "black", size = 2)  + theme_hc() + theme(legend.position="right")
+```
+
+### Resultat exacte
+
+```{r, fig.height = 2, fig.width = 6, fig.align = "center"}
+kable(taula3, vline = "", format = 'html', escape = F, 
+      align = 'ccccccc') %>%
+  kable_styling(latex_options = c("striped"), position = 'center', 
+              font_size = 15) %>%
+  column_spec(1, bold = T, italic = F) %>%
+  column_spec(2, bold = F, italic = F, color = colors2[, 1]) %>%
+  column_spec(3, bold = F, italic = F, color = colors2[, 2]) %>%
+  column_spec(4, bold = F, italic = F, color = colors2[, 3]) %>%
+  column_spec(5, bold = F, italic = F, color = colors2[, 4]) %>%
+  column_spec(6, bold = F, italic = F, color = colors2[, 5]) %>%
+  column_spec(7, bold = F, italic = F, color = colors2[, 6]) %>%
+  column_spec(8, bold = F, italic = F, color = colors2[, 7]) %>%
+  column_spec(9, bold = F, italic = F, color = colors2[, 8]) %>%
+  collapse_rows(1, latex_hline = "none")  %>%
+  add_header_above(c(" " = 1, "Gols equip visitant" = max_gols3 + 1)) %>%
+  pack_rows(index=c("Gols equip local" = max_gols3 + 1))
+
+```

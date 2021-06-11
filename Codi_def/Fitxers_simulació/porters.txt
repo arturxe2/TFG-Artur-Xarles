@@ -1,0 +1,248 @@
+nom1,nom,Nation,Pos,equip,Born,partits,minuts,ga90,save
+Aarón Escandell,Aaron-Escandell,es ESP,GK,Granada,1995.0,3,270,1.0,0.769
+Aaron Ramsdale,Aaron-Ramsdale,eng ENG,GK,Bournemouth,1998.0,66,5940,1.6922105263157892,0.6819684210526316
+Adrián,Adrian,es ESP,GK,Liverpool,1987.0,14,1145,1.4059010600706714,0.6206749116607774
+Aitor Fernández,Aitor-Fernandez,es ESP,GK,Levante,1991.0,60,5400,1.405714285714286,0.7409999999999999
+Alban Lafont,Alban-Lafont,fr FRA,GK,Nantes,1999.0,57,5130,1.2286206896551726,0.7084827586206897
+Alberto Cifuentes,Alberto-Cifuentes,es ESP,GK,Cádiz,1979.0,2,180,1.5,0.5
+Alberto Paleari,Alberto-Paleari,it ITA,GK,Genoa,1992.0,2,116,2.33,0.625
+Alessio Cragno,Alessio-Cragno,it ITA,GK,Cagliari,1994.0,44,3960,1.4655555555555555,0.7475555555555555
+Alex Cordaz,Alex-Cordaz,it ITA,GK,Crotone,1983.0,28,2520,2.5,0.594
+Alex McCarthy,Alex-McCarthy,eng ENG,GK,Southampton,1989.0,53,4770,1.4647435897435896,0.6679230769230768
+Alex Meret,Alex-Meret,it ITA,GK,Napoli,1997.0,34,3031,1.4937290197032351,0.6482880077839942
+Álex Remiro,Alex-Remiro,es ESP,GK,Real Sociedad,1995.0,53,4770,1.18320987654321,0.6856913580246913
+Alexander Nübel,Alexander-Nubel,de GER,GK,Schalke 04,1996.0,26,2315,1.56,0.684
+Alexander Schwolow,Alexander-Schwolow,de GER,GK,Freiburg,1992.0,42,3711,1.501553179516038,0.7043680360157568
+Alexandre Oukidja,Alexandre-Oukidja,dz ALG,GK,Metz,1988.0,54,4813,1.1129968236431431,0.7709465543433228
+Alfred Gomis,Alfred-Gomis,sn SEN,GK,Dijon,1993.0,38,3330,1.2344642857142858,0.7423749999999999
+Alisson,Alisson,br BRA,GK,Liverpool,1992.0,53,4703,0.8949774151245812,0.7207410753314877
+Alphonse Areola,Alphonse-Areola,fr FRA,GK,Real Madrid,1993.0,36,3240,1.2073529411764705,0.755
+Álvaro Fernández,Alvaro-Fernandez,es ESP,GK,Huesca,1998.0,16,1440,1.69,0.623
+Andrea Consigli,Andrea-Consigli,it ITA,GK,Sassuolo,1987.0,57,5130,1.7449397590361446,0.6632650602409639
+Andreas Luthe,Andreas-Luthe,de GER,GK,Augsburg,1987.0,33,2948,1.2655884707766214,0.6627389911929543
+Andrés Fernández,Andres-Fernandez,es ESP,GK,Villarreal,1986.0,16,1440,1.7514285714285716,0.678142857142857
+Ángel Jiménez,Angel-Jimenez,es ESP,GK,Granada,2002.0,1,90,2.0,0.857
+Angelo da Costa Júnior,Angelo-da-Costa-Junior,br BRA,GK,Bologna,1983.0,7,630,1.2307692307692308,0.5886153846153847
+Angus Gunn,Angus-Gunn,eng ENG,GK,Southampton,1996.0,10,900,2.5,0.5660000000000001
+Anthony Lopes,Anthony-Lopes,pt POR,GK,Lyon,1990.0,56,5040,0.973953488372093,0.7310930232558139
+Anthony Racioppi,Anthony-Racioppi,ch SUI,GK,Dijon,1998.0,21,1890,1.57,0.677
+Antonio Adán,Antonio-Adan,es ESP,GK,Atlético Madrid,1987.0,1,25,0.0,1.0
+Antonio Mirante,Antonio-Mirante,it ITA,GK,Roma,1983.0,16,1423,1.1949248747913188,0.7461214524207012
+Antonio Rosati,Antonio-Rosati,it ITA,GK,Torino,1983.0,1,90,1.0,0.8
+Antonio Sivera,Antonio-Sivera,es ESP,GK,Alavés,1996.0,3,270,1.0,0.5
+Asmir Begović,Asmir-Begovic,ba BIH,GK,Milan,1987.0,2,129,2.09,0.667
+Bailey Peacock-Farrell,Bailey-Peacock-Farrell,nir NIR,GK,Burnley,1996.0,1,90,5.0,0.28600000000000003
+Baptiste Reynet,Baptiste-Reynet,fr FRA,GK,Toulouse,1990.0,53,4734,2.061041162227603,0.6140605326876513
+Bartłomiej Drągowski,Bartlomiej-Dragowski,pl POL,GK,Fiorentina,1997.0,59,5263,1.4443446225439505,0.6901883402275077
+Ben Foster,Ben-Foster,eng ENG,GK,Watford,1983.0,38,3420,1.68,0.6629999999999999
+Benjamin Lecomte,Benjamin-Lecomte,fr FRA,GK,Monaco,1991.0,48,4320,1.4464705882352944,0.6767058823529413
+Benoît Costil,Benoit-Costil,fr FRA,GK,Bordeaux,1987.0,58,5220,1.2406818181818182,0.6952727272727272
+Bernd Leno,Bernd-Leno,de GER,GK,Arsenal,1992.0,58,5150,1.2613540713632205,0.7472340870474448
+Bingourou Kamara,Bingourou-Kamara,sn SEN,GK,Strasbourg,1996.0,8,720,1.75,0.581
+Boris Radunović,Boris-Radunovic,rs SRB,GK,Hellas Verona,1996.0,3,270,2.67,0.5379999999999999
+Caoimhín Kelleher,Caoimhin-Kelleher,ie IRL,GK,Liverpool,1998.0,2,180,0.5,0.857
+Churripi,Churripi,es ESP,GK,Valladolid,1994.0,3,244,1.11,0.769
+Ciprian Tătărușanu,Ciprian-Tatarusanu,ro ROU,GK,Lyon,1986.0,3,270,1.5,0.78025
+Claudio Bravo,Claudio-Bravo,cl CHI,GK,Manchester City,1983.0,14,1247,1.7277782952957614,0.5744997671169073
+Dani Cárdenas,Dani-Cardenas,es ESP,GK,Levante,1997.0,3,270,0.67,0.909
+Daniel Fuzato,Daniel-Fuzato,br BRA,GK,Roma,1997.0,1,90,1.0,0.5
+Daniel Martín,Daniel-Martin,es ESP,GK,Betis,1998.0,6,531,2.03,0.5379999999999999
+Daniele Padelli,Daniele-Padelli,it ITA,GK,Inter,1985.0,4,270,1.33,0.5
+Danijel Petković,Danijel-Petkovic,me MNE,GK,Angers,1993.0,2,180,0.5,0.857
+Darren Randolph,Darren-Randolph,ie IRL,GK,West Ham,1987.0,4,360,2.0,0.5706666666666668
+David Button,David-Button,eng ENG,GK,West Brom,1989.0,1,90,2.0,0.7140000000000001
+David Gil,David-Gil,es ESP,GK,Cádiz,1994.0,1,90,2.0,0.33299999999999996
+David Martin,David-Martin,eng ENG,GK,West Ham,1986.0,5,436,1.24,0.7
+David Ospina,David-Ospina,co COL,GK,Napoli,1988.0,32,2819,0.9622835212281123,0.7254192852002879
+David Soria,David-Soria,es ESP,GK,Getafe,1993.0,57,5130,1.005,0.6900000000000001
+David de Gea,David-de-Gea,es ESP,GK,Manchester Utd,1990.0,62,5535,1.0274117647058822,0.7191352941176471
+Dean Henderson,Dean-Henderson,eng ENG,GK,Sheffield Utd,1997.0,42,3735,0.8767021276595746,0.7651063829787234
+Demba Thiam,Demba-Thiam,sn SEN,GK,SPAL,1998.0,2,180,2.0,0.7859999999999999
+Denis Petrić,Denis-Petric,rs SRB,GK,Nantes,1988.0,1,90,2.0,0.667
+Dennis Smarsch,Dennis-Smarsch,de GER,GK,Hertha BSC,1999.0,2,151,2.38,0.636
+Diego López,Diego-Lopez,es ESP,GK,Espanyol,1981.0,36,3232,1.62,0.66
+Dimitry Bertaud,Dimitry-Bertaud,fr FRA,GK,Montpellier,1998.0,9,671,1.4380279232111692,0.5692190226876092
+Donovan Léon,Donovan-Leon,gf GUF,GK,Brest,1992.0,2,122,2.21,0.8
+Ederson,Ederson,br BRA,GK,Manchester City,1993.0,64,5681,0.7790761066216378,0.7453139548908455
+Édgar Badía,Edgar-Badia,es ESP,GK,Elche,1992.0,28,2520,1.5,0.695
+Edouard Mendy,Edouard-Mendy,sn SEN,GK,Rennes,1992.0,49,4410,0.7539189189189189,0.7636756756756756
+Eiji Kawashima,Eiji-Kawashima,jp JPN,GK,Strasbourg,1983.0,22,1980,1.36,0.69
+Emil Audero,Emil-Audero,it ITA,GK,Sampdoria,1997.0,64,5760,1.6182608695652172,0.6814782608695652
+Emiliano Martínez,Emiliano-Martinez,ar ARG,GK,Arsenal,1992.0,37,3291,1.0586732059886423,0.7978575116159009
+Enrico Alfonso,Enrico-Alfonso,it ITA,GK,Brescia,1988.0,4,279,1.29,0.636
+Etrit Berisha,Etrit-Berisha,al ALB,GK,SPAL,1989.0,26,2340,1.58,0.754
+Fabricio,Fabricio,es ESP,GK,Mallorca,1987.0,2,90,3.0,0.8
+Federico Marchetti,Federico-Marchetti,it ITA,GK,Genoa,1983.0,3,244,2.58,0.462
+Federico Ravaglia,Federico-Ravaglia,it ITA,GK,Bologna,1999.0,1,90,5.0,0.28600000000000003
+Felix Wiedwald,Felix-Wiedwald,de GER,GK,Eint Frankfurt,1990.0,3,270,2.67,0.619
+Fernando Pacheco,Fernando-Pacheco,es ESP,GK,Alavés,1992.0,55,4878,1.464501216545012,0.6666058394160584
+Finn Dahmen,Finn-Dahmen,de GER,GK,Mainz 05,1998.0,1,90,5.0,0.636
+Florian Kastenmeier,Florian-Kastenmeier,de GER,GK,Düsseldorf,1997.0,17,1530,1.82,0.618
+Florian Müller,Florian-Muller,de GER,GK,Mainz 05,1997.0,39,3465,1.7984496124031009,0.6720387596899224
+Francesco Rossi,Francesco-Rossi,it ITA,GK,Atalanta,1991.0,1,11,8.18,0.0
+Fraser Forster,Fraser-Forster,eng ENG,GK,Southampton,1988.0,4,360,0.75,0.7
+Frederik Rønnow,Frederik-Ronnow,dk DEN,GK,Eint Frankfurt,1992.0,19,1665,1.8178571428571428,0.7314285714285713
+Gabriel,Gabriel,br BRA,GK,Lecce,1992.0,34,2997,2.28,0.696
+Gautier Larsonneur,Gautier-Larsonneur,fr FRA,GK,Brest,1997.0,54,4828,1.4574455772940202,0.7298765500137779
+Gerónimo Rulli,Geronimo-Rulli,ar ARG,GK,Montpellier,1992.0,25,2250,1.08,0.7859999999999999
+Gianluca Pegolo,Gianluca-Pegolo,it ITA,GK,Sassuolo,1981.0,6,540,0.6857142857142857,0.8679999999999999
+Gianluigi Buffon,Gianluigi-Buffon,it ITA,GK,Juventus,1978.0,14,1260,0.9231578947368422,0.769
+Gianluigi Donnarumma,Gianluigi-Donnarumma,it ITA,GK,Milan,1999.0,63,5631,1.1588983997022704,0.7144927428358764
+Gregor Kobel,Gregor-Kobel,ch SUI,GK,Stuttgart,1997.0,26,2340,1.58,0.6890000000000001
+Hugo Lloris,Hugo-Lloris,fr FRA,GK,Tottenham,1986.0,50,4417,1.0425715098904227,0.7870858118685071
+Iago Herrerín,Iago-Herrerin,es ESP,GK,Athletic Club,1988.0,5,425,1.91,0.5
+Illan Meslier,Illan-Meslier,fr FRA,GK,Leeds United,2000.0,28,2520,1.64,0.735
+Ionuț Radu,Ionut-Radu,ro ROU,GK,Genoa,1997.0,17,1530,2.06,0.674
+Iván Cuéllar,Ivan-Cuellar,es ESP,GK,Leganés,1984.0,27,2429,1.22,0.677
+Ivan Provedel,Ivan-Provedel,it ITA,GK,Spezia,1994.0,22,1980,1.77,0.614
+Iván Villar,Ivan-Villar,es ESP,GK,Celta Vigo,1997.0,15,1161,1.6186287952987266,0.5635519098922626
+Jan Oblak,Jan-Oblak,si SVN,GK,Atlético Madrid,1993.0,66,5915,0.6960995850622407,0.7796639004149377
+Jannik Huth,Jannik-Huth,de GER,GK,Paderborn 07,1994.0,6,540,2.83,0.5
+Jasper Cillessen,Jasper-Cillessen,nl NED,GK,Valencia,1989.0,29,2546,1.2764819759679573,0.7561381842456608
+Jaume Doménech,Jaume-Domenech,es ESP,GK,Valencia,1990.0,38,3394,1.4955966325036605,0.7223480966325037
+Jean-Louis Leca,Jean-Louis-Leca,fr FRA,GK,Lens,1985.0,30,2694,1.37,0.667
+Jeremías Ledesma,Jeremias-Ledesma,ar ARG,GK,Cádiz,1993.0,25,2250,1.56,0.644
+Jeroen Zoet,Jeroen-Zoet,nl NED,GK,Spezia,1991.0,5,423,1.91,0.636
+Jesse Joronen,Jesse-Joronen,fi FIN,GK,Brescia,1993.0,29,2610,2.03,0.7090000000000001
+Jessy Moulin,Jessy-Moulin,fr FRA,GK,Saint-Étienne,1986.0,34,3060,1.0992063492063493,0.7711111111111111
+Jiří Pavlenka,Jiri-Pavlenka,cz CZE,GK,Werder Bremen,1992.0,59,5310,1.8556470588235292,0.6288235294117647
+João Virgínia,Joao-Virginia,pt POR,GK,Everton,1999.0,1,48,0.0,1.0
+Joel Robles,Joel-Robles,es ESP,GK,Betis,1990.0,51,4507,1.470915619389587,0.6698713889342255
+Jonas Omlin,Jonas-Omlin,ch SUI,GK,Montpellier,1994.0,26,2223,1.66,0.732
+Jordan Pickford,Jordan-Pickford,eng ENG,GK,Everton,1994.0,61,5442,1.4212379421221863,0.65783922829582
+Jordi Masip,Jordi-Masip,es ESP,GK,Valladolid,1989.0,53,4770,1.1809859154929578,0.7176197183098592
+Juan Musso,Juan-Musso,ar ARG,GK,Udinese,1994.0,64,5760,1.2966666666666666,0.7597555555555556
+Juan Pérez,Juan-Perez,es ESP,GK,Osasuna,1996.0,3,270,1.125,0.8125
+Juan Soriano,Juan-Soriano,es ESP,GK,Leganés,1997.0,11,990,1.64,0.618
+Karl Darlow,Karl-Darlow,eng ENG,GK,Newcastle Utd,1990.0,25,2250,1.72,0.667
+Karlo Letica,Karlo-Letica,hr CRO,GK,SPAL,1997.0,10,900,2.9,0.561
+Kasper Schmeichel,Kasper-Schmeichel,dk DEN,GK,Leicester City,1986.0,67,6030,1.0860416666666668,0.73075
+Kepa Arrizabalaga,Kepa-Arrizabalaga,es ESP,GK,Chelsea,1994.0,37,3330,1.4278048780487804,0.5569024390243903
+Kevin Trapp,Kevin-Trapp,de GER,GK,Eint Frankfurt,1990.0,48,4320,1.6070270270270268,0.662972972972973
+Keylor Navas,Keylor-Navas,cr CRC,GK,Paris S-G,1986.0,43,3825,0.789453125,0.747859375
+Kiko Casilla,Kiko-Casilla,es ESP,GK,Leeds United,1986.0,1,90,1.0,0.5
+Koen Casteels,Koen-Casteels,be BEL,GK,Wolfsburg,1992.0,51,4590,1.2560526315789473,0.7003026315789473
+Koke Vegas,Koke-Vegas,es ESP,GK,Levante,1995.0,3,270,1.25,0.725
+Lennart Grill,Lennart-Grill,de GER,GK,Leverkusen,1999.0,4,360,1.75,0.667
+Leopold Zingerle,Leopold-Zingerle,de GER,GK,Paderborn 07,1994.0,28,2520,2.04,0.633
+Lorenzo Andrenacci,Lorenzo-Andrenacci,it ITA,GK,Brescia,1995.0,6,531,2.71,0.644
+Lorenzo Montipò,Lorenzo-Montipo,it ITA,GK,Benevento,1996.0,28,2520,1.86,0.605
+Loris Karius,Loris-Karius,de GER,GK,Union Berlin,1993.0,4,292,0.31,0.8
+Lovre Kalinić,Lovre-Kalinic,hr CRO,GK,Toulouse,1990.0,4,306,1.18,0.733
+Lucas Dias,Lucas-Dias,fr FRA,GK,Nîmes,1999.0,4,316,1.71,0.667
+Ludovic Butelle,Ludovic-Butelle,fr FRA,GK,Angers,1983.0,26,2340,1.23,0.628
+Luigi Sepe,Luigi-Sepe,it ITA,GK,Parma,1991.0,62,5580,1.6751111111111112,0.6992666666666667
+Lukáš Hrádecký,Lukas-Hradecky,fi FIN,GK,Leverkusen,1989.0,55,4905,1.2162,0.67742
+Łukasz Fabiański,Lukasz-Fabianski,pl POL,GK,West Ham,1985.0,52,4547,1.3698939372223018,0.688179446753619
+Łukasz Skorupski,Lukasz-Skorupski,pl POL,GK,Bologna,1991.0,58,5220,1.650253164556962,0.6966075949367089
+Manolo Reina,Manolo-Reina,es ESP,GK,Mallorca,1985.0,36,3240,1.67,0.713
+Manuel Neuer,Manuel-Neuer,de GER,GK,Bayern Munich,1986.0,59,5310,1.0654117647058823,0.7259764705882353
+Marc-André ter Stegen,Marc-Andre-ter-Stegen,de GER,GK,Barcelona,1992.0,58,5220,0.9505,0.741025
+Marc-Aurèle Caillard,Marc-Aurele-Caillard,fr FRA,GK,Metz,1994.0,4,271,1.99,0.688
+Marcin Bułka,Marcin-Bulka,pl POL,GK,Paris S-G,1999.0,2,180,0.3333333333333333,0.889
+Marco Silvestri,Marco-Silvestri,it ITA,GK,Hellas Verona,1991.0,63,5670,1.2238461538461538,0.7456153846153846
+Marco Sportiello,Marco-Sportiello,it ITA,GK,Atalanta,1992.0,19,1630,1.106453382084095,0.6699323583180987
+Marek Rodák,Marek-Rodak,sk SVK,GK,Fulham,1996.0,1,90,3.0,0.4
+Mark Flekken,Mark-Flekken,nl NED,GK,Freiburg,1993.0,10,900,1.4,0.8
+Mark Travers,Mark-Travers,ie IRL,GK,Bournemouth,1999.0,1,90,3.0,0.4
+Marko Dmitrović,Marko-Dmitrovic,rs SRB,GK,Eibar,1992.0,62,5550,1.3815094339622642,0.6153962264150943
+Markus Schubert,Markus-Schubert,de GER,GK,Schalke 04,1998.0,9,742,2.18,0.6920000000000001
+Martin Dúbravka,Martin-Dubravka,sk SVK,GK,Newcastle Utd,1989.0,42,3780,1.5056521739130435,0.705086956521739
+Marwin Hitz,Marwin-Hitz,ch SUI,GK,Dortmund,1987.0,14,1190,0.6501913875598087,0.7803492822966507
+Mathew Ryan,Mathew-Ryan,au AUS,GK,Brighton,1992.0,50,4500,1.468225806451613,0.6536290322580645
+Matis Carvalho,Matis-Carvalho,pt POR,GK,Montpellier,1999.0,1,71,5.07,0.5
+Matthieu Dreyer,Matthieu-Dreyer,fr FRA,GK,Lorient,1989.0,12,1080,1.5,0.65
+Mattia Perin,Mattia-Perin,it ITA,GK,Genoa,1992.0,45,4049,1.6152448453608248,0.6757321198453607
+Matz Sels,Matz-Sels,be BEL,GK,Strasbourg,1992.0,27,2430,1.19,0.726
+Mauro Goicoechea,Mauro-Goicoechea,uy URU,GK,Toulouse,1988.0,2,180,2.5,0.615
+Mauro Vigorito,Mauro-Vigorito,it ITA,GK,Lecce,1990.0,5,423,1.91,0.7040000000000001
+Michael Langer,Michael-Langer,at AUT,GK,Schalke 04,1985.0,3,239,4.52,0.5
+Michael McGovern,Michael-McGovern,nir NIR,GK,Norwich City,1984.0,2,159,3.4,0.455
+Miguel Ángel Moyá,Miguel-Angel-Moya,es ESP,GK,Real Sociedad,1984.0,13,1170,1.23,0.6859999999999999
+Mike Maignan,Mike-Maignan,fr FRA,GK,Lille,1995.0,58,5220,0.8475,0.7305681818181818
+Miquel Parera,Miquel-Parera,es ESP,GK,Mallorca,1996.0,1,90,2.0,0.6
+Moritz Nicolas,Moritz-Nicolas,de GER,GK,Union Berlin,1997.0,1,90,4.0,0.5
+Neto,Neto,br BRA,GK,Barcelona,1989.0,8,720,1.0,0.5284285714285714
+Nick Pope,Nick-Pope,eng ENG,GK,Burnley,1992.0,66,5940,1.2663829787234042,0.7306595744680852
+Niclas Thiede,Niclas-Thiede,de GER,GK,Freiburg,1999.0,1,69,1.3,0.75
+Nícolas Andrade,Nicolas-Andrade,br BRA,GK,Udinese,1988.0,2,180,2.5,0.28600000000000003
+Nicolas Lemaître,Nicolas-Lemaitre,fr FRA,GK,Reims,1997.0,1,90,3.0,0.33299999999999996
+Niklas Lomb,Niklas-Lomb,de GER,GK,Leverkusen,1993.0,2,135,2.0,0.625
+Oier Olazábal,Oier-Olazabal,es ESP,GK,Espanyol,1989.0,2,180,0.0,1.0
+Oliver Baumann,Oliver-Baumann,de GER,GK,Hoffenheim,1990.0,55,4950,1.670625,0.6754374999999999
+Ørjan Nyland,Orjan-Nyland,no NOR,GK,Aston Villa,1990.0,7,539,2.0,0.5379999999999999
+Pau López,Pau-Lopez,es ESP,GK,Roma,1994.0,50,4427,1.3918731168396383,0.6905261131570138
+Paul Bernardoni,Paul-Bernardoni,fr FRA,GK,Nîmes,1997.0,55,4904,1.5073908469226724,0.6520867964229354
+Paul Delecroix,Paul-Delecroix,fr FRA,GK,Metz,1988.0,2,135,2.67,0.4
+Paul Nardi,Paul-Nardi,fr FRA,GK,Lorient,1994.0,18,1620,2.06,0.609
+Paulo Gazzaniga,Paulo-Gazzaniga,ar ARG,GK,Tottenham,1992.0,18,1613,1.45,0.7090000000000001
+Pavao Pervan,Pavao-Pervan,at AUT,GK,Wolfsburg,1987.0,9,810,1.0,0.8110999999999999
+Pepe Reina,Pepe-Reina,es ESP,GK,Aston Villa,1982.0,35,3060,1.4780357142857141,0.6792321428571428
+Péter Gulácsi,Peter-Gulacsi,hu HUN,GK,RB Leipzig,1990.0,58,5220,0.9826190476190476,0.7126904761904761
+Philipp Pentke,Philipp-Pentke,de GER,GK,Hoffenheim,1985.0,5,450,1.0,0.7916666666666666
+Pierluigi Gollini,Pierluigi-Gollini,it ITA,GK,Atalanta,1995.0,49,4299,1.238185159257963,0.6755519775988799
+Pietro Terracciano,Pietro-Terracciano,it ITA,GK,Fiorentina,1990.0,8,671,0.9235793871866296,0.8364136490250695
+Predrag Rajković,Predrag-Rajkovic,rs SRB,GK,Reims,1995.0,56,4995,0.8600000000000001,0.7708571428571428
+Radosław Majecki,Radoslaw-Majecki,pl POL,GK,Monaco,1999.0,1,90,1.0,0.5
+Rafael,Rafael,br BRA,GK,Cagliari,1982.0,8,571,2.2021075581395353,0.445405523255814
+Rafał Gikiewicz,Rafal-Gikiewicz,pl POL,GK,Union Berlin,1987.0,59,5310,1.6216470588235294,0.6969058823529412
+Ralf Fährmann,Ralf-Fahrmann,de GER,GK,Norwich City,1988.0,16,1267,3.4173537604456823,0.81208356545961
+Régis Gurtner,Regis-Gurtner,fr FRA,GK,Amiens,1986.0,28,2520,1.79,0.65
+Robert Sánchez,Robert-Sanchez,es ESP,GK,Brighton,1997.0,18,1620,0.94,0.722
+Roberto,Roberto,es ESP,GK,Alavés,1986.0,27,2377,1.9768743693239155,0.686
+Robin Olsen,Robin-Olsen,se SWE,GK,Cagliari,1990.0,22,1974,1.4534158415841585,0.7387648514851486
+Robin Zentner,Robin-Zentner,de GER,GK,Mainz 05,1994.0,47,4185,1.769090909090909,0.6661888111888112
+Romain Salin,Romain-Salin,fr FRA,GK,Rennes,1984.0,20,1710,1.1088235294117648,0.7303823529411764
+Roman Bürki,Roman-Burki,ch SUI,GK,Dortmund,1990.0,47,4210,1.3815575221238938,0.6185663716814159
+Ron-Robert Zieler,Ron-Robert-Zieler,de GER,GK,Köln,1989.0,1,51,1.76,1.0
+Rubén,Ruben,es ESP,GK,Osasuna,1984.0,22,1770,1.4603321410321923,0.574240163515585
+Rubén Blanco,Ruben-Blanco,es ESP,GK,Celta Vigo,1995.0,52,4597,1.3546406801411615,0.6636004170676933
+Rubén Yáñez,Ruben-Yanez,es ESP,GK,Getafe,1993.0,9,810,1.33,0.607
+Rui Patrício,Rui-Patricio,pt POR,GK,Wolves,1988.0,67,6029,1.1285297522574669,0.679228525121556
+Rui Silva,Rui-Silva,pt POR,GK,Granada,1994.0,62,5580,1.3304494382022471,0.6870224719101122
+Rúnar Alex Rúnarsson,Runar-Alex-Runarsson,is ISL,GK,Dijon,1995.0,12,916,1.670815450643777,0.6363519313304722
+Rune Jarstein,Rune-Jarstein,no NOR,GK,Hertha BSC,1984.0,37,3267,1.6281941309255081,0.6859277652370204
+Salvatore Sirigu,Salvatore-Sirigu,it ITA,GK,Torino,1987.0,61,5490,1.7974418604651163,0.6566744186046511
+Sam Johnstone,Sam-Johnstone,eng ENG,GK,West Brom,1993.0,28,2520,1.96,0.6890000000000001
+Samir Handanović,Samir-Handanovic,si SVN,GK,Inter,1984.0,62,5580,0.9251685393258428,0.7280674157303371
+Samir Ujkani,Samir-Ujkani,xk KVX,GK,Torino,1988.0,1,90,3.0,0.6
+Saturnin Allagbé,Saturnin-Allagbe,bj BEN,GK,Dijon,1993.0,4,360,2.0,0.6
+Sébastien Cibois,Sebastien-Cibois,fr FRA,GK,Brest,1998.0,3,270,1.33,0.7
+Sergio Álvarez,Sergio-Alvarez,es ESP,GK,Celta Vigo,1986.0,4,180,0.5,0.75
+Sergio Asenjo,Sergio-Asenjo,es ESP,GK,Villarreal,1989.0,62,5580,1.1882222222222223,0.7273333333333333
+Sergio Herrera,Sergio-Herrera,es ESP,GK,Osasuna,1993.0,44,3893,1.3750921546240418,0.6808558147121186
+Sergio Rico,Sergio-Rico,es ESP,GK,Paris S-G,1993.0,10,855,1.4705882352941178,0.7021764705882353
+Simon Moore,Simon-Moore,eng ENG,GK,Sheffield Utd,1990.0,2,180,3.0,0.5
+Simone Colombi,Simone-Colombi,it ITA,GK,Parma,1991.0,4,360,1.0,0.8240000000000001
+Stefan Bajic,Stefan-Bajic,fr FRA,GK,Saint-Étienne,2001.0,2,180,2.0,0.3333333333333333
+Stefan Ortega,Stefan-Ortega,de GER,GK,Arminia,1992.0,26,2340,1.73,0.7040000000000001
+Stefanos Kapino,Stefanos-Kapino,gr GRE,GK,Werder Bremen,1994.0,1,90,2.0,0.6
+Stéphane Ruffier,Stephane-Ruffier,fr FRA,GK,Saint-Étienne,1986.0,22,1980,1.82,0.606
+Steve Mandanda,Steve-Mandanda,fr FRA,GK,Marseille,1985.0,56,4981,1.0715742326439204,0.7157116321960215
+Sven Ulreich,Sven-Ulreich,de GER,GK,Bayern Munich,1988.0,2,90,1.0,0.667
+Thibaut Courtois,Thibaut-Courtois,be BEL,GK,Real Madrid,1992.0,62,5580,0.6615555555555556,0.7877555555555555
+Thomas Kraft,Thomas-Kraft,de GER,GK,Hertha BSC,1988.0,4,360,2.25,0.55
+Thomas Strakosha,Thomas-Strakosha,al ALB,GK,Lazio,1995.0,44,3960,1.2168,0.73908
+Tim Krul,Tim-Krul,nl NED,GK,Norwich City,1988.0,36,3240,1.89,0.6559999999999999
+Timo Horn,Timo-Horn,de GER,GK,Köln,1993.0,60,5349,1.9520816967792616,0.6028676355066772
+Tobias Sippel,Tobias-Sippel,de GER,GK,MGladbach,1988.0,1,90,1.0,0.5
+Tom Heaton,Tom-Heaton,eng ENG,GK,Aston Villa,1986.0,20,1794,1.76,0.677
+Tomáš Koubek,Tomas-Koubek,cz CZE,GK,Augsburg,1992.0,24,2160,2.12,0.5820000000000001
+Tomáš Vaclík,Tomas-Vaclik,cz CZE,GK,Sevilla,1989.0,37,3285,0.9796296296296296,0.6866419753086419
+Unai Simón,Unai-Simon,es ESP,GK,Athletic Club,1997.0,62,5511,0.9547217033993275,0.7315423982069481
+Vanja Milinković-Savić,Vanja-Milinkovic-Savic,rs SRB,GK,Torino,1997.0,2,180,2.0,0.7
+Vicente Guaita,Vicente-Guaita,es ESP,GK,Crystal Palace,1987.0,64,5760,1.330967741935484,0.6977849462365593
+Vito Mannone,Vito-Mannone,it ITA,GK,Monaco,1988.0,9,810,1.56,0.6
+Walter Benítez,Walter-Benitez,ar ARG,GK,Nice,1993.0,56,5040,1.376511627906977,0.7506046511627907
+Wayne Hennessey,Wayne-Hennessey,wal WAL,GK,Crystal Palace,1987.0,3,270,2.67,0.636
+Willy Caballero,Willy-Caballero,ar ARG,GK,Chelsea,1981.0,6,540,1.6285714285714286,0.48257142857142854
+Wladimiro Falcone,Wladimiro-Falcone,it ITA,GK,Sampdoria,1995.0,2,180,2.5,0.6920000000000001
+Wojciech Szczęsny,Wojciech-Szczesny,pl POL,GK,Juventus,1990.0,51,4571,1.0895512135551824,0.7717496565409862
+Yann Sommer,Yann-Sommer,ch SUI,GK,MGladbach,1988.0,59,5310,1.293095238095238,0.7129404761904762
+Yannis Clementia,Yannis-Clementia,fr FRA,GK,Nice,1997.0,2,180,1.0,0.833
+Yassine Bounou,Yassine-Bounou,ma MAR,GK,Sevilla,1991.0,30,2655,0.6038317757009346,0.8559719626168224
+Yehvann Diouf,Yehvann-Diouf,fr FRA,GK,Reims,1999.0,2,135,0.67,1.0
+Yoel,Yoel,es ESP,GK,Eibar,1988.0,6,390,1.4535294117647057,0.4917058823529412
+Yohann Pelé,Yohann-Pele,fr FRA,GK,Marseille,1982.0,3,239,1.4261094224924011,0.6486717325227964
+Yvon Mvogo,Yvon-Mvogo,ch SUI,GK,RB Leipzig,1994.0,2,180,1.5,0.4
+Zack Steffen,Zack-Steffen,us USA,GK,Düsseldorf,1995.0,18,1620,2.0610526315789475,0.6250526315789474
