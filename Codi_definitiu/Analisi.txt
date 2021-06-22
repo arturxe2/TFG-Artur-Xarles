@@ -1,0 +1,3 @@
+Es mostra la part principal del codi utilitzat per a la realització
+del treball. Es segueixen els passos proposats en la metodologia del
+treball.

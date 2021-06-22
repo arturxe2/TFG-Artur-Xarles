@@ -1,0 +1,6 @@
+Es mostra la funció per a dur a terme el criteri de selecció 
+``Backward Stepwise''. Aquesta funció rep el nom del model a 
+ajustar (glm2pois, glmbpois, glm2poisDI o glmbpoisDI), les 
+possibles variables per a cada fórmula del model, el mètode de 
+selecció de variable i el criteri d'aturada. Retorna el conjunt de 
+variables seleccionat amb aquest mètode.

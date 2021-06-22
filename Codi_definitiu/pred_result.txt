@@ -1,0 +1,6 @@
+Es mostren dues funcions, per a calcular la probabilitat de cada 
+resultat (1, X o 2) i el nombre de gols esperats a partir dels 
+paràmetres estimats dels models. La primera funció és per a les 
+regressions 2P i BP, mentre que la segona, per a les regressions 
+2PDI i BPDI. En les dues, incloure el paràmetre lambda3 indica que 
+es tracta del cas Poisson bivariant.

@@ -1,0 +1,13 @@
+Es mostren dues funcions, una per a l'ajust de la regressió de 
+Poisson bivariant i una per a fer prediccions amb el model ajustat. 
+La primera funció rep les tres fórmules corresponents a les 
+regressions de Poisson de l'algoritme EM, la base de dades amb la 
+que es treballa, el nombre màxim d'iteracions de l'algoritme, la 
+precisió en la qual parar l'algoritme, una variable booleana per 
+indicar si es volen les desviacions típiques calculades a través 
+de ``bootstrap'', el nombre de mostres en cas que la variable 
+anterior sigui certa i un paràmetre d'inicialització de l'algoritme 
+EM. Pel contrari, retorna el model ajustat. La segona funció rep el 
+model ajustat, les noves dades sobre les quals fer prediccions i el 
+format d'aquestes prediccions (tipus ``link'' o resposta). Retorna 
+les prediccions fetes per aquestes noves dades.

@@ -1,0 +1,8 @@
+Es mostren dues funcions, una per a l'ajust de la regressió de dues 
+Poisson independents i una per a fer prediccions amb el model 
+ajustat. La primera funció rep les dues fórmules corresponents a 
+les dues regressions de Poisson i una base de dades, pel contrari, 
+retorna el model ajustat. La segona funció rep el model ajustat, 
+les noves dades sobre les quals fer prediccions i el format 
+d'aquestes prediccions (tipus ``link'' o resposta). Retorna les 
+prediccions fetes per aquestes noves dades.

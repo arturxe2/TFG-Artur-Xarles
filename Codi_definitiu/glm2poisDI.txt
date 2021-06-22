@@ -1,0 +1,18 @@
+Es mostren tres funcions, una per la distribució de probabilitat de 
+dues Poisson independents amb la diagonal inflada, una per a 
+l'ajust de la regressió d'aquesta distribució i una per a fer 
+prediccions amb el model ajustat. La primera funció rep els 
+diferents paràmetres de la distribució i retorna la probabilitat. 
+La segona rep les dues fórmules corresponents a les regressions de 
+les dues Poisson independents, dues fórmules opcionals en el cas de 
+voler utilitzar variables per ajustar els paràmetres d'inflar la 
+diagonal, la base de dades amb la que es treballa, el nombre màxim 
+d'iteracions de l'algoritme EM, la precisió en la qual parar 
+l'algoritme, una variable booleana per indicar si es volen les 
+desviacions típiques calculades a través de ``bootstrap'', 
+el nombre de mostres en cas que la variable anterior sigui certa i 
+un paràmetre d'inicialització de l'algoritme EM. Pel contrari, 
+retorna el model ajustat. La tercera funció rep el model ajustat, 
+les noves dades sobre les quals fer prediccions i el format 
+d'aquestes prediccions (tipus ``link'' o resposta). Retorna les 
+prediccions fetes per aquestes noves dades.

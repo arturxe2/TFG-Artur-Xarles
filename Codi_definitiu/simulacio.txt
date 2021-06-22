@@ -1,0 +1,2 @@
+Es mostra el codi utilitzat per a fer la simulació dels trams finals
+de temporada per les diferents lligues.

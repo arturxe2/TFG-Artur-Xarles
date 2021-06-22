@@ -1,0 +1,4 @@
+Es mostra el codi utilitzat per a la realitzció del dashboard per a
+les prediccions de nous partits. Es llegeixen les prediccions d'un
+document csv amb els paràmetres estimats i es produeix un document
+html amb el resultat final de la visualització.
